@@ -2,7 +2,7 @@
   font-size: 14px;
   --blue: rgb(0, 47, 255);
   --red: rgb(255, 0, 0);
-  --offWhite: antiquewhite;
+  --offWhite: rgb(255, 251, 245);
 }
 body {
   font-family: "Manrope", serif;
