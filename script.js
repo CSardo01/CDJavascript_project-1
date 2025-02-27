@@ -16,7 +16,9 @@ $(document).ready(function () {
             topics.add(item.topic);
             html += `
             <div class="article" data-topic="${item.topic}">
-                <h3 class="source">${item.source}</h3>
+                 <div class="source">
+                     <h3 class="source-content">${item.source}</h3>
+                </div>
                 <a class="article-link" href="${item.href}">${item.headline} | </a>
             </div>`;
         });
@@ -30,7 +32,9 @@ $(document).ready(function () {
             topics.add(item.topic);
             html += `
             <div class="article" data-topic="${item.topic}">
-                <h3 class="source">${item.source}</h3>
+                <div class="source">
+                     <h3 class="source-content">${item.source}</h3>
+                </div>
                 <a class="article-link" href="${item.href}">${item.headline} | </a>
             </div>`;
         });
