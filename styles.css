@@ -5,15 +5,17 @@
   --offWhite: antiquewhite;
 }
 body {
-  font-family: aileron;
-  font-weight: normal;
+  font-family: "Manrope", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
   overflow-x: hidden;
   overflow-y: scroll;
   margin: 0;
   background-color: var(--offWhite);
 }
 a {
-  font-family: jacquard-12, sans-serif;
+  font-family: "Jacquard 12", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 8rem;
@@ -65,6 +67,7 @@ button {
   color: black;
   border: none;
   gap: 0.5rem;
+  letter-spacing: 0.02em;
 }
 button:hover {
   text-shadow: 0.1px 0.1px 0 currentColor;
